@@ -1,35 +1,9 @@
-#########################################################################################################################################
-#                                                           CODE PSEUDOCODE                                                             #
-# If any of the variables age_is_valid, sex_is_valid, height_is_valid, or weight_is_valid is False:                                     #
-# a. An error message is printed to the console, indicating the invalid input.                                                          #
-# b. The loop terminates.                                                                                                               #
-#                                                                                                                                       #
-# If physical_activity is not in valid_physical_activities:                                                                             #
-# a. An error message is printed to the console, indicating the invalid input.                                                          #
-# b. The loop terminates.                                                                                                               #
-#                                                                                                                                       #                                                                                                                               #
-# If all input variables are valid and prompts_finished is False:                                                                       #
-# a. Prompts for age, sex, height, weight, and physical activity are displayed.                                                         #
-# b. If any of the inputs for age, sex, height, weight, or physical activity are invalid:                                               #
-# i. An error message is printed to the console, indicating the invalid input.                                                          #
-# ii. The corresponding variable (age_is_valid, sex_is_valid, height_is_valid, weight_is_valid, or physical_activity) is set to False.  #
-# c. If all inputs are valid:                                                                                                           #
-# i. The variable prompts_finished is set to True.                                                                                      #
-# ii. The function determine_weight_category is called with the calculated BMI to determine the weight category.                        #
-# iii. The variables quantifier_string1 and quantifier_string2 are set based on the weight category.                                    #
-# iv. The height is converted from inches to feet and inches.                                                                           #
-# v. The variable report is formatted using the calculated BMI, weight category, age, sex, physical activity, and calculated calories.  #
-# vi. The report is printed to the console.                                                                                             #
-#                                                                                                                                       #
-# The loop continues until either prompts_finished is True or any of the input variables are invalid.                                   #
-#########################################################################################################################################
-
 ACTIVITY_FACTORS =  {
-"1": ["Sedentary", 1.2],
-"2": ["Lightly Active", 1.375],
-"3": ["Moderately Active", 1.55],
-"4": ["Very Active", 1.725],
-"5": ["Extra Active", 1.9]
+    "1": ["Sedentary", 1.2],
+    "2": ["Lightly Active", 1.375],
+    "3": ["Moderately Active", 1.55],
+    "4": ["Very Active", 1.725],
+    "5": ["Extra Active", 1.9]
 }
 
 # Define the function to calculate BMI
