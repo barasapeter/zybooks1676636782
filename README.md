@@ -4,5 +4,3 @@ calculates bmi
 ---
 also read: caloric factors && diet
 ---
-
-___
