@@ -1,7 +1,5 @@
-# bmi-calculator
-calculates bmi
+# Calculate BMI
+BASAL METABOLIC RATE - python playground
 
----
-also read: caloric factors && diet
----
----
+Also read: caloric factors && diet
+
